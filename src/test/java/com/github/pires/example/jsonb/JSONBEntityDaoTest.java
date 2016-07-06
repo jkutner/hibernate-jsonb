@@ -13,7 +13,6 @@
 package com.github.pires.example.jsonb;
 
 import com.github.pires.example.dao.JSONBEntityDao;
-import com.github.pires.example.model.JSONBDocument;
 import com.github.pires.example.model.JSONBEntity;
 import com.github.pires.example.TestEnvironment;
 import java.util.List;
@@ -55,10 +54,8 @@ public class JSONBEntityDaoTest {
   @Test(groups = GROUP_CREATE)
   public void test_creation() {
     tx.begin();
-    JSONBDocument doc = new JSONBDocument().created(NOW).
-        description(DESCRIPTION);
     entity = new JSONBEntity();
-    entity.document(doc);
+    entity.document("{\"created\": " + NOW + ", \"description\":\"" + DESCRIPTION + "\"}");
     dao.persist(entity);
     tx.commit();
     assertNotNull(entity.getId());
@@ -77,13 +74,12 @@ public class JSONBEntityDaoTest {
 
   @Test(groups = GROUP_CREATE)
   public void test_creation_with_document_tree() {
-    final JSONBDocument doc1 = new JSONBDocument().created(NOW + 1000).
-        description("doc1");
-    final JSONBDocument doc2 = new JSONBDocument().created(NOW + 7000).
-        description("doc2");
     tx.begin();
     entity = new JSONBEntity();
-    entity.documents(doc1, doc2);
+    entity.documents(
+      "{\"created\": " + (NOW + 1000) + ", \"description\":\"doc1\"}",
+      "{\"created\": " + (NOW + 7000) + ", \"description\":\"doc2\"}"
+    );
     dao.persist(entity);
     tx.commit();
     assertNotNull(entity.getId());

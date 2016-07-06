@@ -40,7 +40,7 @@ public class JSONBEntity {
   private Long version;
 
   @Type(type = "jsonb")
-  private List<JSONBDocument> documents;
+  private List<String> documents;
 
   public JSONBEntity() {
     this.id = randomUUID();
@@ -63,23 +63,23 @@ public class JSONBEntity {
     this.version = version;
   }
 
-  public List<JSONBDocument> getDocuments() {
+  public List<String> getDocuments() {
     return documents;
   }
 
-  public JSONBEntity documents(final List<JSONBDocument> documents) {
+  public JSONBEntity documents(final List<String> documents) {
     this.documents = documents;
     return this;
   }
 
-  public JSONBEntity documents(final JSONBDocument... documents) {
-    for (JSONBDocument document : documents) {
+  public JSONBEntity documents(final String... documents) {
+    for (String document : documents) {
       this.documents.add(document);
     }
     return this;
   }
 
-  public JSONBEntity document(final JSONBDocument document) {
+  public JSONBEntity document(final String document) {
     this.documents.add(document);
     return this;
   }
