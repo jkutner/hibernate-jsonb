@@ -10,11 +10,8 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.github.pires.example.hibernate.user.types;
+package com.example.hibernate.user.types;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.IOException;
 import java.io.Serializable;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -23,7 +20,6 @@ import java.sql.Types;
 import java.util.Properties;
 import org.hibernate.HibernateException;
 import org.hibernate.engine.spi.SessionImplementor;
-import org.hibernate.internal.util.ReflectHelper;
 import org.hibernate.usertype.ParameterizedType;
 import org.hibernate.usertype.UserType;
 import org.postgresql.util.PGobject;

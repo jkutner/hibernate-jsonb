@@ -10,7 +10,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.github.pires.example;
+package com.example;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

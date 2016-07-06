@@ -10,9 +10,10 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.github.pires.example.dao;
+package com.example.dao;
 
-import com.github.pires.example.model.JSONBEntity;
+import com.example.model.JSONBEntity;
+
 import java.util.List;
 import javax.persistence.Query;
 

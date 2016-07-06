@@ -10,7 +10,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.github.pires.example.hibernate.user.types;
+package com.example.hibernate.user.types;
 
 import java.io.Serializable;
 import org.hibernate.HibernateException;

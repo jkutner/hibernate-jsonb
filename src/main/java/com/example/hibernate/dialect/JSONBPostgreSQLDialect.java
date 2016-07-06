@@ -10,7 +10,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.github.pires.example.hibernate.dialect;
+package com.example.hibernate.dialect;
 
 import java.sql.Types;
 import org.hibernate.dialect.PostgreSQL82Dialect;

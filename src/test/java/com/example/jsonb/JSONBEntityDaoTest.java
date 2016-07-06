@@ -10,11 +10,11 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.github.pires.example.jsonb;
+package com.example.jsonb;
 
-import com.github.pires.example.dao.JSONBEntityDao;
-import com.github.pires.example.model.JSONBEntity;
-import com.github.pires.example.TestEnvironment;
+import com.example.model.JSONBEntity;
+import com.example.dao.JSONBEntityDao;
+import com.example.TestEnvironment;
 import java.util.List;
 import javax.persistence.EntityTransaction;
 import static org.testng.Assert.assertEquals;

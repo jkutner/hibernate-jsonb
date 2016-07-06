@@ -10,10 +10,10 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.github.pires.example;
+package com.example;
 
-import com.github.pires.example.dao.JSONBEntityDao;
-import com.github.pires.example.model.JSONBEntity;
+import com.example.dao.JSONBEntityDao;
+import com.example.model.JSONBEntity;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;

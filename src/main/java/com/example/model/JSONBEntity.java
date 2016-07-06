@@ -10,9 +10,9 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.github.pires.example.model;
+package com.example.model;
 
-import com.github.pires.example.hibernate.user.types.JSONBUserType;
+import com.example.hibernate.user.types.JSONBUserType;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
