@@ -49,7 +49,7 @@ Configuring TestNG with: TestNG652Configurator
 15:06:14,616  INFO DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=postgres, password=****}
 15:06:14,616  INFO DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
 15:06:14,617  INFO DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
-15:06:14,849  INFO Dialect:145 - HHH000400: Using dialect: com.github.pires.example.hibernate.dialect.JSONBPostgreSQLDialect
+15:06:14,849  INFO Dialect:145 - HHH000400: Using dialect: com.example.hibernate.dialect.JSONBPostgreSQLDialect
 15:06:14,869  INFO LobCreatorBuilder:123 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
 15:06:15,055  INFO ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
 15:06:15,073 TRACE TypeFactory:72 - Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@73f808ef

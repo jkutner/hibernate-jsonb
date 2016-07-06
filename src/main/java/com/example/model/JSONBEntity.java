@@ -27,7 +27,7 @@ import org.hibernate.annotations.TypeDef;
 
 @TypeDef(name = "jsonb", typeClass = JSONBUserType.class, parameters = {
   @Parameter(name = JSONBUserType.CLASS,
-      value = "com.github.pires.example.model.JSONBEntity")})
+      value = "com.example.model.JSONBEntity")})
 @Entity
 @Table(name = "JSONB_ENTITIES")
 public class JSONBEntity {
