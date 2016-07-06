@@ -1,4 +1,4 @@
-hibernate-postgres-jsonb
+hibernate-jsonb
 ======================
 
 Hibernate 4.3.x (JPA 2.1) + PostgreSQL 9.4 JSONB support example.
