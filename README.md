@@ -16,6 +16,9 @@ Then test it by running:
 $ curl -d "{ \"answer\": 42 }" https://<your-app-name>.herokuapp.com/
 ```
 
+For an example that uses Jackson to map POJOs to JSONB
+see [pires/hibernate-postgres-jsonb](https://github.com/pires/hibernate-postgres-jsonb).
+
 # Build and test
 
 ## PostgreSQL 9.4
