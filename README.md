@@ -38,6 +38,10 @@ mvn clean test
 
 # Generate drop-create SQL
 
+The sample app is configured to automatically update the database schema in "prod" mode
+and (re)create the schema in "test" mode. But you can also manually create the schema
+with Maven or the scripts in the `sql/` directory.
+
 ```
 mvn clean package -Pgenerate-sql
 ```
