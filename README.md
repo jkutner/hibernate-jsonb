@@ -10,10 +10,11 @@ Hibernate 4.3.x (JPA 2.1) + PostgreSQL 9.4 JSONB support example.
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-# Pre-requisites
+Then test it by running:
 
-* JDK 7
-* Maven 3.1.0 or newer
+```
+$ curl -d "{ \"answer\": 42 }" https://<your-app-name>.herokuapp.com/
+```
 
 # Build and test
 
