@@ -8,6 +8,8 @@ Hibernate 4.3.x (JPA 2.1) + PostgreSQL 9.4 JSONB support example.
 * Static-metamodel & SQL generation
 * Simple DAO with native JSONB query
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 # Pre-requisites
 
 * JDK 7

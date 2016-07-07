@@ -1,0 +1,5 @@
+{
+  "name": "Hibernate JSONB Example",
+  "description": "A barebones Hibernate JSONB Example that can be deployed to Heroku.",
+  "addons": [ "heroku-postgresql" ]
+}
